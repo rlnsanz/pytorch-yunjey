@@ -24,7 +24,7 @@ learning_rate = 0.01
 train_dataset = torchvision.datasets.MNIST(
     root="../../data/", train=True, transform=transforms.ToTensor(), download=True
 )
-flor.log("train_dataset", type(train_dataset))
+flor.log("train_dataset", str(type(train_dataset)))
 
 test_dataset = torchvision.datasets.MNIST(
     root="../../data/", train=False, transform=transforms.ToTensor()
