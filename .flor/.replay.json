@@ -1,0 +1,9 @@
+{
+    "NAME": "mnistRNN",
+    "TSTAMP": "2023-03-06T20:01:30.json",
+    "device": "cuda",
+    "train_dataset": "<class 'torchvision.datasets.mnist.MNIST'>",
+    "accuracy": 97.84,
+    "PROJID": "pytorch-yunjey_flor.shadow",
+    "EPOCHS": 2
+}
