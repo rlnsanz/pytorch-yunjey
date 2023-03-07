@@ -24,3 +24,6 @@ class RNN(nn.Module):
         # Decode the hidden state of the last time step
         out = self.fc(out[:, -1, :])
         return out
+
+
+__all__ = ["RNN"]
