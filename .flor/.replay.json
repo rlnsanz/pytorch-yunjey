@@ -1,9 +1,9 @@
 {
-    "NAME": "refactorRNN",
-    "TSTAMP": "2023-03-07T00:48:51.json",
+    "NAME": "newTiming",
+    "TSTAMP": "2023-03-08T17:29:07.json",
     "device": "cuda",
     "train_dataset": "<class 'torchvision.datasets.mnist.MNIST'>",
-    "accuracy": 97.6,
+    "accuracy": 97.95,
     "PROJID": "pytorch-yunjey_flor.shadow",
     "EPOCHS": 2
 }
