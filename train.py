@@ -53,6 +53,7 @@ Flor.checkpoints(model, optimizer)
 # Train the model
 total_step = len(train_loader)
 for epoch in Flor.loop(range(num_epochs)):
+    flor.log("learning_rate", optimizer.param_groups[0]["lr"])
     for i, (images, labels) in Flor.loop(enumerate(train_loader)):  # type: ignore
         images = images.reshape(-1, sequence_length, input_size).to(device)
         labels = labels.to(device)
